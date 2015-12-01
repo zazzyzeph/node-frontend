@@ -1,0 +1,21 @@
+{
+  "name": "node-frontend",
+  "version": "1.0.0",
+  "description": "Starter framework for Grunt directory watching and compilation for Sass and Jade",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zazzyzeph/node-frontend.git"
+  },
+  "author": "Zephyr Prusinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zazzyzeph/node-frontend/issues"
+  },
+  "homepage": "https://github.com/zazzyzeph/node-frontend#readme"
+}
