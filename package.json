@@ -4,7 +4,9 @@
   "description": "Starter framework for Grunt directory watching and compilation for Sass and Jade",
   "main": "app.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1"
+  },
   "scripts": {
     "test": "grunt nodeunit"
   },

@@ -7,6 +7,15 @@ module.exports = function(grunt) {
         },
       },
     },
+    concat: {
+      options: {
+        separator: ';',
+      },
+      dist: {
+        src: ['javascripts/*.js'],
+        dest: 'public/javascripts/main.js',
+      },
+    },
     watch: {
       sass: {
         files: ['sass/**/*.scss'],
@@ -16,7 +25,14 @@ module.exports = function(grunt) {
         },
       },
       jade: {
-        files: ['views/**/*.jade', 'javascripts/**/*.js'],
+        files: ['views/**/*.jade'],
+        options: {
+          livereload : true
+        },
+      },
+      js: {
+        files: ['javascripts/**/*.js'],
+        tasks: ['concat'],
         options: {
           livereload : true
         },
@@ -25,6 +41,7 @@ module.exports = function(grunt) {
   });
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.registerTask('default', ['watch']);
 };
 
