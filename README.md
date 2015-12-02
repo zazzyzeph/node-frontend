@@ -1,15 +1,15 @@
 # node-frontend
 A front-end framework using Jade (HTML templates/partials) and Sass. Watched/compiled by Grunt, served by Node to your localhost. Normalize, Bootstrap, and jQuery included.
 
-# Prerequisites
+# Prerequisites #
 
-**Install Node**
+## Install Node ##
 
 [https://nodejs.org/](https://nodejs.org/ "Node.js")
 
 Once installed, open a terminal.
 
-**Install Grunt**
+## Install Grunt ##
 
 `npm install -g grunt-cli`
 
@@ -17,16 +17,16 @@ Once installed, open a terminal.
 
 **Install Node Dependencies**
 
-npm install
+`npm install`
 
 
 
-# Starting the server
+# Starting the localhost server #
 
 `node app.js`
 
-# Running Grunt
+## Running Grunt
 
-open a new terminal window / tab, cd to the same directory, then
+open a new terminal window/tab, cd to the same directory, then
 
 `grunt`
