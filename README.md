@@ -1,15 +1,15 @@
 # node-frontend
-A front-end framework using Jade (HTML templates/partials) and Sass. Watched/compiled by Grunt, served by Node to your localhost. Normalize, Bootstrap, and jQuery included.
+A front-end framework using Jade (HTML templates/partials) and Sass. Watched/compiled by Grunt, served by Node to your localhost. Normalize, Bootstrap, jQuery, and LiveReload included.
 
-# Prerequisites #
+## Prerequisites ##
 
-## Install Node ##
+### Install Node ###
 
 [https://nodejs.org/](https://nodejs.org/ "Node.js")
 
 Once installed, open a terminal.
 
-## Install Grunt ##
+### Install Grunt ###
 
 `npm install -g grunt-cli`
 
@@ -20,13 +20,32 @@ Once installed, open a terminal.
 `npm install`
 
 
+-----------------------------------------------------------------
 
-# Starting the localhost server #
+## Starting the localhost server ##
 
 `node app.js`
 
-## Running Grunt
+### Running Grunt ###
 
 Open a new terminal window/tab, cd to the same directory, then
 
 `grunt`
+
+## Accessing the site ##
+
+Point your browser to [http://localhost:1337](http://localhost:1337 "localhost:1337")
+
+
+-----------------------------------------------------------------
+
+## LiveReload ##
+
+Using LiveReload will refresh Chrome whenever the CSS is done compiling, or when you modify a Jade file in `views` or a Javascript file in the `javascripts` folder.
+
+LiveReload works by injecting a script right before `</body>`, and it's easiest to use the Chrome extension.
+
+[Install the LiveReload extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en "LiveReload")
+
+Once installed, there will be a circle icon placed in the top right of the browser, which will inject the script into the current page. You can click it again to remove it.
+
