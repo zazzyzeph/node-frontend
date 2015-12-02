@@ -27,6 +27,6 @@ Once installed, open a terminal.
 
 ## Running Grunt
 
-open a new terminal window/tab, cd to the same directory, then
+Open a new terminal window/tab, cd to the same directory, then
 
 `grunt`
