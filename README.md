@@ -41,7 +41,7 @@ Point your browser to [http://localhost:1337](http://localhost:1337 "localhost:1
 
 ## LiveReload ##
 
-Using LiveReload will refresh Chrome whenever the CSS is done compiling, or when you modify a Jade file in `views` or a Javascript file in the `javascripts` folder.
+Using LiveReload will refresh Chrome whenever the CSS is done compiling, or when you modify a Pug file in `views` or a Javascript file in the `javascripts` folder.
 
 LiveReload works by injecting a script right before `</body>`, and it's easiest to use the Chrome extension.
 
