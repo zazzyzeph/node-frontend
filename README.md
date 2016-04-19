@@ -47,5 +47,5 @@ LiveReload works by injecting a script right before `</body>`, and it's easiest 
 
 [Install the LiveReload extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en "LiveReload")
 
-Once installed, there will be a circle icon placed in the top right of the browser, which will inject the script into the current page. You can click it again to remove it.
+Once installed, there will be a circle icon placed in the top right of the browser, which will inject the script into the current page when clicked. You can click it again to remove it.
 
