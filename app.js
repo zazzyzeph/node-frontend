@@ -1,8 +1,18 @@
 // base vars
 
 var express = require('express');
+var sassMiddleware = require('node-sass-middleware');
 var app = express();
 var path = require('path');
+
+// 
+app.use(sassMiddleware({
+    /* Options */
+    src: __dirname,
+    dest: path.join(__dirname, 'public'),
+    debug: true,
+    outputStyle: 'nested',
+}));
 
 
 // make views the directory for templates

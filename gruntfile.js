@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'public/stylesheets/style.css' : 'sass/app.scss'
+          // 'public/stylesheets/style.css' : 'sass/app.scss'
         },
       },
     },
@@ -17,15 +17,21 @@ module.exports = function(grunt) {
       },
     },
     watch: {
-      sass: {
-        files: ['sass/**/*.scss'],
-        tasks: ['sass'],
+      // sass: {
+      //   files: ['sass/**/*.scss'],
+      //   tasks: ['sass'],
+      //   options: {
+      //     livereload : true
+      //   },
+      // },
+      css: {
+        files: ['public/stylesheets/style.css'],
         options: {
           livereload : true
         },
       },
-      jade: {
-        files: ['views/**/*.jade'],
+      pug: {
+        files: ['views/**/*.pug'],
         options: {
           livereload : true
         },
@@ -39,7 +45,7 @@ module.exports = function(grunt) {
       },
     },
   });
-  grunt.loadNpmTasks('grunt-sass');
+  // grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.registerTask('default', ['watch']);
