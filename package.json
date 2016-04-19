@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Starter framework for Grunt directory watching and compilation for Sass and Jade",
   "main": "app.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.13.4",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^0.5.1",
+    "pug": "^2.0.0-alpha6"
+  },
   "devDependencies": {
     "grunt-contrib-concat": "^0.5.1"
   },

@@ -9,7 +9,7 @@ var path = require('path');
 app.set('views', path.join(__dirname, 'views'));
 app.set('stylesheets', path.join(__dirname, 'public/stylesheets'));
 
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 app.use(express.static('public'));
 
 //set routes
