@@ -17,6 +17,17 @@ module.exports = function(grunt) {
       },
     },
     watch: {
+      // This is for when you want to use Grunt
+      // to compile SCSS instead of Express,
+      // which is currently compiling it on
+      // request. This is fast and easier on
+      // dev, but i'm not sure if serving it
+      // via Express is good for server load
+      // in a production environment.
+      // 
+      // tldr don't use express to serve
+      // scss on live
+      // 
       // sass: {
       //   files: ['sass/**/*.scss'],
       //   tasks: ['sass'],

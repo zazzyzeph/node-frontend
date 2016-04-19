@@ -1,5 +1,5 @@
 # node-frontend
-A front-end framework using Jade (HTML templates/partials) and Sass. Watched/compiled by Grunt, served by Node to your localhost. Normalize, Bootstrap, jQuery, and LiveReload included.
+A front-end framework using Pug (AKA Jade – HTML templates/partials), Sass, and Grunt, served by Express to your localhost via Node. LiveReload on changes to .scss, .js, or .pug files.
 
 ## Prerequisites ##
 
